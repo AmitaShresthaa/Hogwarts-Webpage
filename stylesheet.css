@@ -3,6 +3,10 @@ body{
     background-image: url(./image/background.jpeg);
     
 }
+:root{
+    --box--shadow:-5px 5px 10px 5px rgb(180, 156, 234);
+
+}
 
 .header-container{
     display: flex;
@@ -39,6 +43,7 @@ body{
     justify-content: center;
     align-items: center;
     color:rgb(235, 240, 203);
+    
 
 }
 
@@ -84,7 +89,7 @@ h3{
 
 .hero-text{
     background-color: rgba(247, 243, 195,.3);
-    width: 150px;
+    width: 300px;
     text-align: center;
     border-radius: 15%;
     padding: 32px;
@@ -103,6 +108,28 @@ h3{
 }
 
 .blog-container{
+    /* border:2px solid rgb(225, 192, 255); */
+    flex-basis: 70%;
+    padding: 20px;
+    /* box-shadow:var(--box--shadow); */
+    gap:12px;
+    /* border-radius: 20px; */
+    /* background-color: rgba(216, 214, 225, 0.5); */
+    color:rgb(213, 165, 236);
+
+}
+
+.filter-container{
+    /* border:2px solid pink; */
+    flex-basis:30%;
+    padding: 20px;
+    /* box-shadow:-5px 5px 10px 5px antiquewhite; */
+    /* border-radius: 20px; */
+    /* background-color: rgba(216, 214, 225, 0.5); */
+
+}
+
+.news-card{
     border:2px solid rgb(225, 192, 255);
     flex-basis: 70%;
     padding: 20px;
@@ -110,47 +137,175 @@ h3{
     gap:12px;
     border-radius: 20px;
     background-color: rgba(216, 214, 225, 0.5);
-    color:rgb(23, 68, 3);
-
-}
-
-.filter-container{
-    border:2px solid pink;
-    flex-basis:30%;
-    padding: 20px;
-    box-shadow:-5px 5px 10px 5px antiquewhite;
-    border-radius: 20px;
-    background-color: rgba(216, 214, 225, 0.5);
-
-}
-
-.news-card{
+    color:rgb(23, 68, 3);    
     display:flex;
-    
+    margin:20px;
 }
 
 .news-card1{
-    display:flex;
-    
+    border:2px solid rgb(225, 192, 255);
+    flex-basis: 70%;
+    padding: 20px;
+    box-shadow:-5px 5px 10px 5px rgb(180, 156, 234);
+    gap:12px;
+    border-radius: 20px;
+    background-color: rgba(216, 214, 225, 0.5);
+    color:rgb(23, 68, 3);    
+    display:flex; 
+    margin:20px;
+   
 }
 
 .news-card2{
-    display:flex;
-    
+    border:2px solid rgb(225, 192, 255);
+    flex-basis: 70%;
+    padding: 20px;
+    box-shadow:-5px 5px 10px 5px rgb(180, 156, 234);
+    gap:12px;
+    border-radius: 20px;
+    background-color: rgba(216, 214, 225, 0.5);
+    color:rgb(23, 68, 3);    
+    display:flex; 
+    margin:20px;
+   
 }
 
 .news-card3{
-    display:flex;
-    
+    border:2px solid rgb(225, 192, 255);
+    flex-basis: 70%;
+    padding: 20px;
+    box-shadow:-5px 5px 10px 5px rgb(180, 156, 234);
+    gap:12px;
+    border-radius: 20px;
+    background-color: rgba(216, 214, 225, 0.5);
+    color:rgb(23, 68, 3);    
+    display:flex;   
+    margin:20px;
+ 
 }
 
 .news-card4{
-    display:flex;
-    
+    border:2px solid rgb(225, 192, 255);
+    flex-basis: 70%;
+    padding: 20px;
+    box-shadow:-5px 5px 10px 5px rgb(180, 156, 234);
+    gap:12px;
+    border-radius: 20px;
+    background-color: rgba(216, 214, 225, 0.5);
+    color:rgb(23, 68, 3);    
+    display:flex; 
+    margin:20px;
+   
 }
 
 .image-card{
     height: 150px;
     width:100px;
     border-radius: 10px;
+}
+
+.filter-by-type{
+    /* border:2px solid pink; */
+    flex-basis:30%;
+    padding: 20px;
+    box-shadow:var(--box--shadow);
+    border-radius: 20px;
+    background-color: rgba(216, 214, 225, 0.5);
+    margin-bottom:30px;
+
+}
+
+.filter-by-year{
+    /* border:2px solid pink; */
+    flex-basis:30%;
+    padding: 20px;
+    box-shadow:var(--box--shadow);
+    border-radius: 20px;
+    background-color: rgba(216, 214, 225, 0.5);
+
+}
+
+.houses{
+    display:flex;
+    flex-wrap: wrap;
+    padding:20px;
+    gap: 20px;   
+}
+
+.ravenclaw{
+    box-shadow: var(--box--shadow);
+    width:150px;
+    color:aliceblue;
+    border-radius:20px;
+    width: 250px;
+}
+
+.huffelpuff{
+    box-shadow: var(--box--shadow);
+    width:150px;
+    color:aliceblue;
+    border-radius:20px;
+    width: 250px;
+
+}
+
+.slytherin{
+    box-shadow: var(--box--shadow);
+    width:150px;
+    color:aliceblue;
+    border-radius:20px;
+    width: 250px;
+
+}
+
+.griffendor{
+    box-shadow: var(--box--shadow);
+    width:150px;
+    color:aliceblue;
+    border-radius:20px;
+    width: 250px;
+
+}
+
+.house-image{
+    height: 320px;
+    width:250px;
+    border-radius: 20px;
+
+}
+
+.house-card-body{
+    padding: 0 12px 12px 12px;
+    width:150px;
+}
+
+.read-more-button{
+    box-sizing: var(--box--shadow);
+    background-color: antiquewhite;
+    padding: 12px;
+    border-radius: 20px;
+    float: right;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.read-more-button:hover{
+    background-color: rgb(48, 6, 87);
+}
+
+.subscription-form{
+    background-color: rgb(177, 137, 215);
+    padding: 10px;
+
+}
+
+center{
+    color:aliceblue;
+}
+
+footer{
+    background-color: plum;
+    padding:20px;
+    margin-top: 40px;
+    text-align: center;
 }
